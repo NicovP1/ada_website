@@ -203,6 +203,18 @@ img {
   height: 2.5rem;
 }
 
+.navbar {
+  height: 120px; /* Adjust this value as needed */
+  display: flex;
+  align-items: center; /* Keeps elements like the logo vertically aligned */
+  padding: 0 20px; /* Optional: Adjust padding for spacing */
+}
+
+.navbar-brand-logo img {
+  max-height: 80px; /* Keeps the logo properly scaled */
+  margin: auto 0;;
+}
+
 .navbar-custom .navbar-nav .nav-item {
   text-transform: uppercase;
   font-size: 0.8125rem;
