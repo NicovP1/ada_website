@@ -31,6 +31,7 @@ html {
 }
 
 body {
+  padding-top: 120px;
   font-family: var(--body-font);
   font-size: 1.125rem;
   color: var(--text-col);
