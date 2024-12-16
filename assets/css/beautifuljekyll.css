@@ -49,6 +49,11 @@ body {
 body > main {
   flex: 1;
 }
+
+main {
+  margin-top: 80px; /* This creates space for the fixed header */
+}
+
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
