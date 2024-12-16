@@ -49,7 +49,6 @@ body {
 body > main {
   flex: 1;
 }
-
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
@@ -164,6 +163,21 @@ img {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
+}
+
+/* Initially, the navbar is positioned fixed at the top */
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: top 0.3s ease-in-out; /* Smooth transition for showing/hiding */
+}
+
+/* Add this class to hide the navbar */
+.navbar-hidden {
+  top: -100px; /* Adjust this to hide the navbar completely */
 }
 
 
@@ -682,7 +696,7 @@ footer .footer-custom-content {
 
 .intro-header {
   margin: 5rem 0 1.25rem;
-  position: fixed;
+  position: relative;
 }
 .intro-header.big-img {
   background: no-repeat center center;
