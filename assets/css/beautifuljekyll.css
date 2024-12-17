@@ -101,6 +101,30 @@ hr.small {
   text-align: center; /* Center-aligns the entire figure */
 }
 
+.plot2 {
+  text-align: center; /* Center-aligns the entire figure */
+}
+
+.plot3 {
+  text-align: center; /* Center-aligns the entire figure */
+}
+
+.plot4 {
+  text-align: center; /* Center-aligns the entire figure */
+}
+
+.plot5 {
+  text-align: center; /* Center-aligns the entire figure */
+}
+
+.plot6 {
+  text-align: center; /* Center-aligns the entire figure */
+}
+
+.plot8 {
+  text-align: center; /* Center-aligns the entire figure */
+}
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";
