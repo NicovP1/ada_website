@@ -49,9 +49,9 @@ However, first, she asks herself if there is anything to analyze to draw conclus
     <figcaption>Figure 1: A visualization of my data number 6.</figcaption>
 </figure>
 
-
-{% include plot_7.html %}
-
+<div class="plot7">
+    {% include plot_7.html %}
+</div>
 
 <figure class="plot8">
     <img src="assets/img/plot8.png" alt="My Plot 8">

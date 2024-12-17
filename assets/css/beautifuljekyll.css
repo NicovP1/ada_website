@@ -121,6 +121,12 @@ hr.small {
   text-align: center; /* Center-aligns the entire figure */
 }
 
+.plot7 {
+  display: flex;          /* Enables flexbox layout */
+  justify-content: center; /* Centers the plot horizontally */
+  height: auto;           /* Keeps proper aspect ratio */
+}
+
 .plot8 {
   text-align: center; /* Center-aligns the entire figure */
 }
