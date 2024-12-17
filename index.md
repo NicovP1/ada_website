@@ -15,4 +15,6 @@ Note: We assume that the dataset is representative of the movie industry in term
 
 
 After merging data from multiple sources, cleaning and handling it, Annabel is left with movie records spanning over 100 years. She wonders whether including such old data is meaningful and won't harm her analysis, given how much society has evolved over time. Factors like movie runtimes, peak release months, popular genres, and dominant themes may have changed significantly. For example, early films often had shorter runtimes due to technological limitations, while genres like superhero movies only gained popularity in recent decades.
+
+
 However, first, she asks herself if there is anything to analyze to draw conclusions on.
