@@ -24,6 +24,36 @@ However, first, she asks herself if there is anything to analyze to draw conclus
     <figcaption>Figure 1: A visualization of my data number 1.</figcaption>
 </figure>
 
+<figure class="plot2">
+    <img src="assets/img/plot2.png" alt="My Plot 2">
+    <figcaption>Figure 1: A visualization of my data number 2.</figcaption>
+</figure>
+
+<figure class="plot3">
+    <img src="assets/img/plot3.png" alt="My Plot 3">
+    <figcaption>Figure 1: A visualization of my data number 3.</figcaption>
+</figure>
+
+<figure class="plot4">
+    <img src="assets/img/plot4.png" alt="My Plot 4">
+    <figcaption>Figure 1: A visualization of my data number 4.</figcaption>
+</figure>
+
+<figure class="plot5">
+    <img src="assets/img/plot5.png" alt="My Plot 5">
+    <figcaption>Figure 1: A visualization of my data number 5.</figcaption>
+</figure>
+
+<figure class="plot6">
+    <img src="assets/img/plot6.png" alt="My Plot 6">
+    <figcaption>Figure 1: A visualization of my data number 6.</figcaption>
+</figure>
+
 <div class="plot-7-container">
 {% include plot_7.html %}
 </div>
+
+<figure class="plot8">
+    <img src="assets/img/plot8.png" alt="My Plot 8">
+    <figcaption>Figure 1: A visualization of my data number 8.</figcaption>
+</figure>
