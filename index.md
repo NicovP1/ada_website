@@ -18,3 +18,6 @@ After merging data from multiple sources, cleaning and handling it, Annabel is l
 
 
 However, first, she asks herself if there is anything to analyze to draw conclusions on.
+
+{% include bubbleProfitability.html %}
+
