@@ -19,6 +19,11 @@ After merging data from multiple sources, cleaning and handling it, Annabel is l
 
 However, first, she asks herself if there is anything to analyze to draw conclusions on.
 
+<figure class="plot1">
+    <img src="assets/img/plot1.png" alt="My Plot 1">
+    <figcaption>Figure 1: A visualization of my data number 1.</figcaption>
+</figure>
+
 <div class="plot-7-container">
 {% include plot_7.html %}
 </div>
