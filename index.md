@@ -19,19 +19,34 @@ After merging data from multiple sources, cleaning and handling it, Annabel is l
 
 However, first, she asks herself if there is anything to analyze to draw conclusions on.
 
+<div class="plot-1-container">
 {% include plot_1.html %}
+</div>
 
+<div class="plot-2-container">
 {% include plot_2.html %}
+</div>
 
+<div class="plot-3-container">
 {% include plot_3.html %}
+</div>
 
+<div class="plot-4-container">
 {% include plot_4.html %}
+</div>
 
+<div class="plot-5-container">
 {% include plot_5.html %}
+</div>
 
+<div class="plot-6-container">
 {% include plot_6.html %}
+</div>
 
+<div class="plot-7-container">
 {% include plot_7.html %}
+</div>
 
+<div class="plot-8-container">
 {% include plot_8.html %}
-
+</div>
