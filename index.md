@@ -21,7 +21,7 @@ However, first, she asks herself if there is anything to analyze to draw conclus
 
 <figure class="plot1">
     <img src="assets/img/plot1.png" alt="My Plot 1">
-    <figcaption><center>Figure 1: A visualization of my data number 1.</center></figcaption>
+    <figcaption>Figure 1: A visualization of my data number 1.</figcaption>
 </figure>
 
 <div class="plot-7-container">
