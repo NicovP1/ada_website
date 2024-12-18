@@ -19,6 +19,7 @@ After merging data from multiple sources, cleaning and handling it, Annabel is l
 
 However, first, she asks herself if there is anything to analyze to draw conclusions on.
 
+
 <figure class="plot1">
     <img src="assets/img/plot1.png" alt="My Plot 1">
     <figcaption>Figure 1: A visualization of my data number 1.</figcaption>
@@ -34,9 +35,19 @@ However, first, she asks herself if there is anything to analyze to draw conclus
     <figcaption>Figure 1: A visualization of my data number 3.</figcaption>
 </figure>
 
+Annabel’s analysis reached a critical juncture once she compiled historical profitability data by month and grouped it by season over multiple decades. Up to this point, she had discussed the importance of timing in movie releases, examined correlations between genre and seasonal trends, and highlighted how cultural events influenced audience turnout. Now, she needed to present concrete evidence of how these patterns had evolved over time.
+
+This is where Figure 4: Monthly Profitability Distribution by Season Across Decades is introduced, placed after the initial descriptive analysis of overall seasonal shifts. The figure consists of four panels—one for each season—displaying how each month’s share of profitable outcomes has changed over successive decades. By examining these lines, one can observe long-term trends, such as the gradual strengthening of certain winter months or the periodic rises and falls in summer profitability.
+
+Annabel would present the figure immediately following her general overview of seasonal tendencies. Prior to showing it, she briefly discusses the methodological approach: how profitability percentages were calculated per decade, how months were assigned to seasons, and why focusing on aggregated historical data can provide a more stable reference point than short-term fluctuations.
+
+When decision-makers review Figure 4, they can identify patterns, for example, the sustained growth in spring months or a mid-century decline in certain fall months. Each seasonal panel includes both individual months and the total seasonal trend, aiding in understanding not only the contribution of each month but also the collective seasonal profile.
+
+After the figure, Annabel draws attention to key observations. For instance, she might note that the winter season consistently maintained a relatively stable share, while summer saw significant variability, influenced by evolving industry strategies for blockbuster releases. These insights equip the studio’s planning team with a data-driven foundation to fine-tune their scheduling decisions, ensuring that release dates align more closely with historically proven profitable periods.
+
 <figure class="plot4">
     <img src="assets/img/plot4.png" alt="My Plot 4">
-    <figcaption>Figure 1: A visualization of my data number 4.</figcaption>
+    <figcaption>Figure 4: Monthly Profitability Distribution by Season Across Decades.</figcaption>
 </figure>
 
 <figure class="plot5">
