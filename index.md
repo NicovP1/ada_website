@@ -22,7 +22,7 @@ However, first, she asks herself if there is anything to analyze to draw conclus
 Before Annabel could delve into deeper patterns or complex relationships, she needed to understand the basic shape and scope of the data at her disposal. Figure 1 served as this initial checkpoint. Here, she examined histograms of budgets, profitability, revenue, and the count of movies produced each decade. This preliminary step allowed her to confirm that there was indeed enough variation, historical coverage, and breadth in the data to support a meaningful analysis.
 <figure class="plot1">
     <img src="assets/img/plot1.png" alt="My Plot 1">
-    <figcaption>Figure 1: A visualization of my data number 1.</figcaption>
+    <figcaption>Figure 1: Preliminary Data Distributions.</figcaption>
 </figure>
 
 In reviewing these distributions, Annabel could see that budgets spanned several orders of magnitude, indicating that the dataset captured productions ranging from low-cost independent films to big-budget blockbusters. The profitability histogram revealed a broad spectrum of outcomes, reassuring her that some films clearly succeeded financially while others struggled to break even. Similarly, the revenue distribution reaffirmed the presence of both modest earners and record-breaking hits.
@@ -39,7 +39,6 @@ Annabel then introduced Figure 2: Long-Term Trends in Median Profitability and S
 By examining trends over the last century, the figure indicated that film profitability and success rates have generally declined compared to earlier eras. In other words, though certain months or seasons may still stand out, the overall environment has grown more challenging for producing profitable films. Within the most recent 20-year span, the data suggested a leveling-off of this decline, hinting that the industry may have reached a new baseline—less prosperous than the mid-20th century, but relatively stable.
 
 This historical context helps interpret the earlier findings. The information on monthly and seasonal patterns must be understood within an industry framework where achieving profitability has become increasingly difficult. While timing can still influence a film’s financial outcome, the long-term trends make it clear that studios must consider not only the immediate patterns identified in previous figures but also the broader shifts in market conditions and profitability over time.
-
 
 Annabel began her analysis by examining the fundamentals: how does profitability vary month by month, without yet accounting for historical shifts or seasonal groupings over time? To address this, she introduced Figure 1: Profitability Per Month in her report. This figure presents boxplots of profitability for each month, enabling readers to see the central tendencies, variability, and the presence of unusual values (outliers) in a straightforward, comparative manner.
 <figure class="plot3">
@@ -113,6 +112,13 @@ This perspective helped Annabel understand not only when or what type of movies 
 
 In the context of her broader story, this heatmap represented another layer of detail, following the earlier analyses of timing, long-term trends, and genre-specific shifts. By adding thematic content into the equation, Annabel gave stakeholders a more comprehensive toolkit for decision-making: they now had insights into not just when to release a film or which genre might be profitable, but also which themes, paired with the right genre, had historically yielded strong financial results.
 
+
+
+In the end, Annabel’s exploration through historical data didn’t simply provide a set of guidelines—it gave her the confidence and intuition needed to advise the studio’s leadership with greater clarity. By starting at the most basic distributions and gradually layering on time, genre, and thematic factors, she realized that the “perfect” release strategy wasn’t a fixed formula. Instead, it emerged as a nuanced blend of insights: some months and seasons offered steadier prospects, certain genres had proven track records (even if their popularity ebbed and flowed), and themes resonated differently depending on cultural shifts and audience evolution.
+
+These findings empowered Annabel to move beyond rote scheduling suggestions. She could now propose data-driven release windows aligned with historically favorable conditions, adapt genre choices to reflect current market realities, and recommend story elements likely to engage viewers. More importantly, by seeing how profitability patterns changed across decades, she gained an appreciation for the industry’s dynamic nature. What worked in the mid-20th century might not hold true today, yet understanding past trajectories helped her anticipate where the market could be heading.
+
+Ultimately, the patterns Annabel uncovered granted her more than a list of do’s and don’ts. They offered perspective. She learned that while no single factor guaranteed success, a thoughtful combination of timing, genre, and thematic alignment—grounded in historical evidence—could significantly improve a film’s odds in an uncertain landscape. Armed with these intuitions, Annabel could now advise the studio with greater conviction, guiding them toward informed, flexible strategies capable of thriving in a continuously evolving industry.
 
 <!-- 
 Annabel’s goal was to provide the studio’s leadership with data-driven guidance on movie release strategies, content choices, and long-term planning. She began her analysis with a foundational question: How does profitability vary on a month-to-month basis?
