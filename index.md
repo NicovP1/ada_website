@@ -31,6 +31,7 @@ Annabel then introduced Figure 2: Long-Term Trends in Median Profitability and S
     <figcaption>Figure 2: Long-Term Trends in Median Profitability and Success Rate.</figcaption>
 </figure>
 By examining trends over the last century, the figure indicated that film profitability and success rates have generally declined compared to earlier eras. In other words, though certain months or seasons may still stand out, the overall environment has grown more challenging for producing profitable films. Within the most recent 20-year span, the data suggested a leveling-off of this decline, hinting that the industry may have reached a new baseline—less prosperous than the mid-20th century, but relatively stable.
+
 This historical context helps interpret the earlier findings. The information on monthly and seasonal patterns must be understood within an industry framework where achieving profitability has become increasingly difficult. While timing can still influence a film’s financial outcome, the long-term trends make it clear that studios must consider not only the immediate patterns identified in previous figures but also the broader shifts in market conditions and profitability over time.
 
 
@@ -40,18 +41,23 @@ Annabel began her analysis by examining the fundamentals: how does profitability
     <figcaption>Figure 3: Profitability Per Month.</figcaption>
 </figure>
 Looking closely at the figure, one can discern notable patterns. Some months, such as June or December, show a higher median profitability, represented by a taller box and median line situated at a relatively elevated position on the y-axis. This suggests that, on average, films released in these months tend to achieve better returns. However, these months also exhibit a larger spread of values and more outliers, implying a greater degree of unpredictability—while many films do well, a few may significantly overperform, skewing the distribution. Other months, like January or March, have slightly lower medians and more compact interquartile ranges. This tighter grouping indicates that while results may be more modest, they are also more consistent, with fewer extreme outcomes.
+
 Additionally, the number of data points (indicated by "n=" above each box) varies, reflecting industry behaviors. Months with a higher volume of releases may show more dispersion, as a greater variety of films—from low-budget indies to tentpole blockbusters—enter the market. This influences not just central profit tendencies but the overall shape of the distribution
+
 By analyzing these boxplots, Annabel can identify months that historically yield steadier results versus those offering the potential for higher peaks but also larger risks. This initial examination lays the groundwork for her subsequent figures and analyses, which delve into how these patterns evolve over decades or shift when aggregated into seasons. Understanding the month-by-month baseline is crucial before exploring longer-term trends and more complex scheduling considerations.
 
 
 Annabel’s analysis reached a critical juncture once she compiled historical profitability data by month and grouped it by season over multiple decades. Up to this point, she had discussed the importance of timing in movie releases, examined correlations between genre and seasonal trends, and highlighted how cultural events influenced audience turnout. Now, she needed to present concrete evidence of how these patterns had evolved over time.
+
 This is where Figure 4: Monthly Profitability Distribution by Season Across Decades is introduced, placed after the initial descriptive analysis of overall seasonal shifts. The figure consists of four panels—one for each season—displaying how each month’s share of profitable outcomes has changed over successive decades. By examining these lines, one can observe long-term trends, such as the gradual strengthening of certain winter months or the periodic rises and falls in summer profitability.
 <figure class="plot4">
     <img src="assets/img/plot4.png" alt="My Plot 4">
     <figcaption>Figure 4: Monthly Profitability Distribution by Season Across Decades.</figcaption>
 </figure>
 Annabel would present the figure immediately following her general overview of seasonal tendencies. Prior to showing it, she briefly discusses the methodological approach: how profitability percentages were calculated per decade, how months were assigned to seasons, and why focusing on aggregated historical data can provide a more stable reference point than short-term fluctuations.
+
 When decision-makers review Figure 4, they can identify patterns, for example, the sustained growth in spring months or a mid-century decline in certain fall months. Each seasonal panel includes both individual months and the total seasonal trend, aiding in understanding not only the contribution of each month but also the collective seasonal profile.
+
 After the figure, Annabel draws attention to key observations. For instance, she might note that the winter season consistently maintained a relatively stable share, while summer saw significant variability, influenced by evolving industry strategies for blockbuster releases. These insights equip the studio’s planning team with a data-driven foundation to fine-tune their scheduling decisions, ensuring that release dates align more closely with historically proven profitable periods.
 
 
@@ -61,7 +67,9 @@ After presenting Figure 4, Annabel directed attention to the shifts in profitabi
     <figcaption>Figure 5: Profitability Trends and Representation by Genre Over Time.</figcaption>
 </figure>
 From the data, Annabel noted several patterns. Family films, for instance, grew more common over the decades, but their average profitability declined, suggesting that while studios continued producing them, the financial returns gradually diminished. In contrast, war films lost both profitability and representation, indicating that they not only became less profitable over time but also less frequently produced, likely reflecting shifting audience interests and historical contexts.
+
 Romantic films, once a staple, also saw a decrease in both frequency and profitability, pointing to waning audience demand. On the other hand, certain categories showed more positive trends. LGBT films, starting from a smaller base, increased in both representation and profitability, suggesting that as audience tastes and social attitudes evolved, these films found more consistent market success. Action films also expanded their share of the market without a corresponding drop in financial performance, indicating that they remained stable or even slightly improved in terms of returns as they became more common. Superhero films—while more variable—suggest a late emergence, peaking in profitability during certain periods and slowly building representation over time.
+
 By examining these genre-specific trajectories, Annabel established that no single pattern applies universally. Some genres fade, some find steady ground, and others expand into new opportunities. These insights, in combination with earlier findings about months, seasons, and overall profitability trends, provide a detailed map of how audience preferences, market conditions, and cultural factors influence the profitability and prevalence of certain types of films over the long term.
 
 
@@ -71,7 +79,9 @@ After discussing the long-term patterns shown in Figure 5, Annabel introduced a 
     <figcaption>Figure 1: A visualization of my data number 6.</figcaption>
 </figure>
 For example, Family films, which had been steadily losing profitability over the long term despite increasing in prevalence, now show rising profits, suggesting that producers may have adapted to audience needs more effectively. War films, previously declining in both profitability and presence, appear relatively stable in representation now, though still less profitable than in earlier decades. Romantic films, once in continuous decline, now seem to have leveled off, indicating that their reduced appeal may have reached a plateau.
+
 LGBT films, which showed promise over the full historical range, appear more variable in the last two decades, hinting that audience acceptance and market strategies are still settling. Action films, already on a stable upward path, continue to hold their ground and remain profitable. Superhero films, late bloomers in the long-term data, now display a clearer upward trend, reflecting better-defined franchises and marketing strategies.
+
 By comparing these recent trends with the longer historical arcs, Annabel demonstrated that while past patterns provide context, contemporary shifts can differ meaningfully. Some genres are adapting and finding renewed profitability, others are stabilizing at lower levels, and a few continue to grow. This shorter-term perspective helps refine current strategic planning, complementing the broader insights gleaned from older historical trends.
 
 
@@ -80,7 +90,9 @@ As her analysis neared completion, Annabel introduced a new, interactive visuali
     {% include plot_7.html %}
 </div>
 In this interactive chart, each bubble represents the median profitability of films released in a particular month for a given genre. Users can adjust the bubble size to reflect different metrics—such as median budget, runtime, or sample size. For instance, a large bubble with a modest median budget might indicate that profitable returns are achievable without massive financial investments, especially if it appears in months previously identified as stable or promising. Conversely, smaller bubbles or those corresponding to large budgets may prompt the viewer to question the return on high-cost productions in certain periods.
+
 This dynamic element of the visualization allows decision-makers to explore multiple dimensions simultaneously. They can compare how Action films fare in early summer versus Family films at year’s end, or see whether a steady uptick in profitability aligns with an increase in sample size. The interactive nature means no single interpretation is fixed; instead, it encourages experimentation, letting users toggle between metrics and genres to find patterns that align with their strategic goals.
+
 By incorporating this interactive bubble chart at this stage in the narrative, Annabel ensured that her readers weren’t just receiving a static overview of historical trends—they were equipped to engage with the data directly. This final step tied together the earlier findings, reinforcing the importance of month-by-month considerations, acknowledging the influence of budget and sample size, and showing how newly emergent patterns in recent decades could inform more nuanced, data-driven release strategies.
 
 
@@ -90,10 +102,13 @@ Following the introduction of interactive visuals and temporal breakdowns, Annab
     <figcaption>Figure 1: A visualization of my data number 8.</figcaption>
 </figure>
 In this visualization, each cell represented a unique genre-theme pairing, with color intensity indicating median profitability. Alongside the profitability values, sample counts were provided in parentheses, giving a sense of how frequently that combination appeared. By examining this matrix, Annabel could identify which themes seemed to resonate strongly with audiences within particular genres. For example, she might notice that “Family” themes performed well in the Family genre but less so in War films, or that “Friendship” consistently correlated with higher profitability across multiple genres—provided there were enough samples to support that observation.
+
 This perspective helped Annabel understand not only when or what type of movies performed well, but also why certain films might stand out. Identifying profitable theme-genre pairs allowed her to connect previous insights—like the decline in certain genres or the rise in others—to the narrative and emotional elements that drive audience engagement. If a particular theme thrived in a stable or upward-trending genre, it suggested opportunities for studios to develop content more aligned with those favored combinations.
+
 In the context of her broader story, this heatmap represented another layer of detail, following the earlier analyses of timing, long-term trends, and genre-specific shifts. By adding thematic content into the equation, Annabel gave stakeholders a more comprehensive toolkit for decision-making: they now had insights into not just when to release a film or which genre might be profitable, but also which themes, paired with the right genre, had historically yielded strong financial results.
 
 
+<!-- 
 Annabel’s goal was to provide the studio’s leadership with data-driven guidance on movie release strategies, content choices, and long-term planning. She began her analysis with a foundational question: How does profitability vary on a month-to-month basis?
 
 Figure 1: Profitability Per Month offered the first glimpse of these patterns. Through boxplots, Annabel demonstrated that certain months, like June and December, often yielded higher median profits, yet came with more volatility. Others, like January or March, were more modest but more predictable. This initial view helped establish a baseline: timing matters, but each month carries its own risk profile.
@@ -111,3 +126,5 @@ To make these insights more actionable, Annabel introduced an interactive bubble
 Finally, Annabel presented a heatmap linking genres to themes, revealing how narrative elements interact with genres to influence profitability. Identifying which themes perform best within certain genres—especially those trending positively—could guide content creators and producers in crafting stories more likely to resonate with audiences and yield better financial results.
 
 Taken together, these visualizations tell a comprehensive story. Starting from basic monthly differences and building towards a multi-layered understanding involving seasons, decades, genres, and themes, Annabel’s analysis offers both short-term tactical insights and long-term strategic perspectives. The combination of static figures and interactive tools ensures that decision-makers can not only understand historical patterns but also engage with the data to inform future strategies. This integrated approach provides the studio with a richer, more nuanced blueprint for making data-driven decisions in a complex and evolving film landscape.
+
+ -->
