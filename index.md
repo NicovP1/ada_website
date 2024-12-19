@@ -19,11 +19,17 @@ After merging data from multiple sources, cleaning and handling it, Annabel is l
 
 However, first, she asks herself if there is anything to analyze to draw conclusions on.
 
-
+Before Annabel could delve into deeper patterns or complex relationships, she needed to understand the basic shape and scope of the data at her disposal. Figure 1 served as this initial checkpoint. Here, she examined histograms of budgets, profitability, revenue, and the count of movies produced each decade. This preliminary step allowed her to confirm that there was indeed enough variation, historical coverage, and breadth in the data to support a meaningful analysis.
 <figure class="plot1">
     <img src="assets/img/plot1.png" alt="My Plot 1">
     <figcaption>Figure 1: A visualization of my data number 1.</figcaption>
 </figure>
+
+In reviewing these distributions, Annabel could see that budgets spanned several orders of magnitude, indicating that the dataset captured productions ranging from low-cost independent films to big-budget blockbusters. The profitability histogram revealed a broad spectrum of outcomes, reassuring her that some films clearly succeeded financially while others struggled to break even. Similarly, the revenue distribution reaffirmed the presence of both modest earners and record-breaking hits.
+
+The final panel, showing the number of movies per decade, demonstrated that the dataset covered a wide historical range, with film production expanding substantially over time. This confirmed that any long-term trends or shifts in market conditions would be observable, given the rich temporal coverage.
+
+By starting with this figure, Annabel ensured she wasn’t building an analysis on shaky ground. Understanding the underlying distributions and sample sizes up front helped her proceed confidently, knowing that subsequent insights—whether related to timing, genre, or theme—would rest on a solid foundation of comprehensive data.
 
 Annabel then introduced Figure 2: Long-Term Trends in Median Profitability and Success Rate, placing it after the monthly and seasonal analyses. While the previous figures highlighted tactical considerations—such as which months or seasons might be more favorable—this plot provided a broader, long-term perspective.
 <figure class="plot2">
