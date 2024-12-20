@@ -5,6 +5,7 @@ subtitle: The way of the data analyst
 ---
 <div style="text-align: justify">
 Annabel, a young data analyst, has just joined a major American film studio recently backed by a new investor financing movies across six genres: Family, War, Romance, LGBT, Action, and Superhero. After several disappointing box-office results, the CEO—promised a cut of each movie's profits—wants to identify the most profitable genres, ideal release periods and best general practices. Annabel’s job is to uncover key factors driving movie success through historical trend analysis. She has a cleaned dataset representative of the US movie industry in genre proportions, though not in the total number of films. The dataset includes over 50,000 American movies, with budget and revenue figures (adjusted for inflation) available for nearly 5,000 of them.
+</div>
 
 ### What Drives Movie Success: Genres, Themes, or Release Timing? 
 Focusing on profitability, measured as the ratio of box office revenue to production budget, Annabel evaluates financial success rather than audience appreciation which doesn't always define how profitable a movie is (think about the last Star Wars episodes...). She wonders if including older records might distort her analysis due to changes in movie-making trends like runtimes or evolving genre popularity. But before, she asks herself: Is there enough meaningful data to draw actionable conclusions?
@@ -120,4 +121,3 @@ Feeling overwhelmed by the abundance of information, Annabel reviews her finding
 - `-`: Sample size < 30
 
 In the end, Annabel’s exploration through historical data didn’t simply provide a set of guidelines. By starting at the most basic distributions and gradually layering on time, genre, and themes, she realized that the “perfect” release strategy wasn’t a fixed formula. Instead, there are numerous nuances that contribute or not to a movie success.
-</div>
