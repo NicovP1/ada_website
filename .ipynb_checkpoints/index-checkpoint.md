@@ -152,6 +152,7 @@ Feeling overwhelmed by the abundance of information, Annabel reviews her finding
 | Superhero  | Family (M), Friendship (M), Identity (+-)      | 1h45               | 150M Budget: June (+), January (+)  ;  100M Budget: October (M) | Very scattered profitability but higher peaks in profit  ;  Lack of data: results not robust |
 | War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Peaks during conflicts |
 
+
 - `M`: Market opportunity (sample size < 10)
 - `+`: Sample size > 30
 - `-`: Sample size < 30
