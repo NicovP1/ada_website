@@ -77,27 +77,11 @@ Annabel wonders how the combination of a film’s genre and underlying theme mig
 Annabel could identify which theme-genre pair seems to resonate strongly with audiences within particular genres. Sample size has its importance too : while a higher sample size may indicate more robust values, low sample sizes means a theme-genre pair wasn't done that much, and if the first movies for it went well indicate there might be a market opportunity.
 
 
-high profitability pairs : 
-action : love (+-), friendship (+-)
-family : deception (-), family (+), friendship (+), identity (+-)
-LGBT : , love (+-), identity (+-), friendship (+-)
-Romantic : deception (+-), resilience (+-), love (+), identity(+-), friendship (+-), family (-)
-Superhero : family (-), friendship (-), identity (+-)
-War : resilience (-), love (+-)s
-
-
-market opportunities : 
-deception-family
-survival - lgbt
-isolation - romantic
-family - superhero 
-friendship - superhero
-
-
 Before stating her official guidelines to the film studio, she wants to see how major events (like wars) influenced movie releases of the war genre. 
 ... ELSA PART...
+
 #### Conclusion
-Overwhelmed with everything she found out, Annabel reads through her findings again and organizes the guidelines she will give the film studio in a table : 
+Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she plans to provide to the film studio into a structured table.
 
 | Genre      | Recommended Associated Themes                  | Recommended Runtime | Recommended Release Time                       | Comments                                                                 |
 |------------|------------------------------------------------|---------------------|-----------------------------------------------|--------------------------------------------------------------------------|
@@ -109,7 +93,7 @@ Overwhelmed with everything she found out, Annabel reads through her findings ag
 | War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Slightly influenced by war news in the world |
 
 **Key:**
-- M: Market opportunity (sample size < 10)
+- `M`: Market opportunity (sample size < 10)
 - `+`: Sample size > 30
 - `-`: Sample size < 30
 
