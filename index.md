@@ -3,7 +3,7 @@ layout: home
 title: Annabel's story
 subtitle: The way of the data analyst
 ---
-<div style="text-align: justify", margin-bottom: 20px">
+<div style="text-align: justify; margin-bottom: 20px;">
 Annabel, a young data analyst, has just joined a major American film studio recently backed by a new investor financing movies across six genres: Family, War, Romance, LGBT, Action, and Superhero. After several disappointing box-office results, the CEO—promised a cut of each movie's profits—wants to identify the most profitable genres, ideal release periods and best general practices. Annabel’s job is to uncover key factors driving movie success through historical trend analysis. She has a cleaned dataset representative of the US movie industry in genre proportions, though not in the total number of films. The dataset includes over 50,000 American movies, with budget and revenue figures (adjusted for inflation) available for nearly 5,000 of them.
 </div>
 
