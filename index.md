@@ -19,13 +19,8 @@ First, she asks herself if there is anything to analyze to draw conclusions on.
 Before Annabel could delve into deeper patterns or complex relationships, she needed to understand the basic shape and scope of the data at her disposal. Figure 1 serves as this initial checkpoint. Here, she examined histograms of budgets, profitability, revenue, and the count of movies produced in each decade. 
 
 <figure class="plot1">
-<<<<<<< HEAD
     <img src="assets/img/ds_1_histograms.png" alt="My Plot 1">
-    <figcaption>Figure 1: A visualization of my data number 1.</figcaption>
-=======
-    <img src="assets/img/plot1.png" alt="My Plot 1">
     <figcaption>Figure 1: Preliminary Data Distributions.</figcaption>
->>>>>>> 763c78106c6d6dafbc9c06d586fed600475bb3c8
 </figure>
 
 In reviewing these distributions, Annabel sees that budgets spanned several orders of magnitude, indicating that the dataset captured productions ranging from low-cost independent films to big-budget blockbusters. More importantly, the profitability histogram revealed a broad spectrum of outcomes, reassuring her that some films clearly succeeded financially while others struggled to break even. Similarly, the revenue distribution reaffirmed the presence of both modest earners and record-breaking hits. Annabel is relieved, she won't loose her job! 
@@ -35,13 +30,8 @@ The final histogram, showing the number of movies per decade, demonstrated that 
 Annabel begins her analysis by examining the big picture: **how did film profitability and success rates evolved over the last century?** She believes that movies are less profitable now due to the rise of alternative forms of entertainment. To test her hypothesis, she creates Figure 2, showing regression plots with the 95% confidence interval of the median profitability and success rate by decade and by year for the past 20 years. A movie is considered successful if it made a profit (profitability > 1). She uses the median profitability because the distribution of profitability figures is skewed and aggregates by decade to account for smaller sample sizes in earlier years. To highlight more recent trends where yearly sample sizes are larger, she also includes a second plot showing the median profitability by year.
 
 <figure class="plot2">
-<<<<<<< HEAD
     <img src="assets/img/ds_2_profbydecade.png" alt="My Plot 2">
-    <figcaption>Figure 1: A visualization of my data number 2.</figcaption>
-=======
-    <img src="assets/img/plot2.png" alt="My Plot 2">
     <figcaption>Figure 2: Long-Term Trends in Median Profitability and Success Rate.</figcaption>
->>>>>>> 763c78106c6d6dafbc9c06d586fed600475bb3c8
 </figure>
 
 By reviewing these century-spanning trends, Annabel found that overall profitability and success rate declined over time. While individual periods still stood out for better or worse performance, the overarching narrative was that achieving profitable results became progressively more challenging over time. In the most recent 20-year window, the data suggested a leveling-off in this decline.
@@ -51,13 +41,8 @@ This long-term perspective provided a critical backdrop. Understanding that the 
 Building on this historical foundation, Annabel next examined how profitability varies month by month. She introduced Figure 3: Profitability Per Month, focusing on boxplots to reveal central tendencies, variability, and outliers within each month’s data. While the long-term view showed a general decline in profitability, this month-level breakdown offered more immediate and actionable intelligence for scheduling and marketing decisions.
 
 <figure class="plot3">
-<<<<<<< HEAD
     <img src="assets/img/ds_3_profpermonth.png" alt="My Plot 3">
-    <figcaption>Figure 1: A visualization of my data number 3.</figcaption>
-=======
-    <img src="assets/img/plot3.png" alt="My Plot 3">
     <figcaption>Figure 3: Profitability Per Month.</figcaption>
->>>>>>> 763c78106c6d6dafbc9c06d586fed600475bb3c8
 </figure>
 Some months, such as June or December, exhibited higher median profitability, but also greater unpredictability. Others, like January or March, showed lower returns on average, yet more consistency and fewer extreme results. The volume of releases per month also influenced the distribution, with higher-volume months displaying a wider range of outcomes due to the greater variety of films released.
 
@@ -67,13 +52,8 @@ Annabel’s analysis reached a critical juncture once she compiled historical pr
 
 This is where Figure 4: Monthly Profitability Distribution by Season Across Decades is introduced, placed after the initial descriptive analysis of overall seasonal shifts. The figure consists of four panels—one for each season—displaying how each month’s share of profitable outcomes has changed over successive decades. By examining these lines, one can observe long-term trends, such as the gradual strengthening of certain winter months or the periodic rises and falls in summer profitability.
 <figure class="plot4">
-<<<<<<< HEAD
     <img src="assets/img/ds_4_profdistribution.png" alt="My Plot 4">
-    <figcaption>Figure 1: A visualization of my data number 4.</figcaption>
-=======
-    <img src="assets/img/plot4.png" alt="My Plot 4">
     <figcaption>Figure 4: Monthly Profitability Distribution by Season Across Decades.</figcaption>
->>>>>>> 763c78106c6d6dafbc9c06d586fed600475bb3c8
 </figure>
 Annabel would present the figure immediately following her general overview of seasonal tendencies. Prior to showing it, she briefly discusses the methodological approach: how profitability percentages were calculated per decade, how months were assigned to seasons, and why focusing on aggregated historical data can provide a more stable reference point than short-term fluctuations.
 
@@ -84,13 +64,8 @@ After the figure, Annabel draws attention to key observations. For instance, she
 
 After presenting Figure 4, Annabel directed attention to the shifts in profitability and representation across different film genres over time. Unlike the previous figures that focused on seasonal patterns, decades-long trends, or industry-wide profitability, Figure 5 offered a more granular view at the genre level. Each column represented a genre, with the top row illustrating changes in median profitability and the bottom row showing how frequently that genre appeared as a portion of the total film market.
 <figure class="plot5">
-<<<<<<< HEAD
     <img src="assets/img/ds_5_proftrends.png" alt="My Plot 5">
-    <figcaption>Figure 1: A visualization of my data number 5.</figcaption>
-=======
-    <img src="assets/img/plot5.png" alt="My Plot 5">
     <figcaption>Figure 5: Profitability Trends and Representation by Genre Over Time.</figcaption>
->>>>>>> 763c78106c6d6dafbc9c06d586fed600475bb3c8
 </figure>
 From the data, Annabel noted several patterns. Family films, for instance, grew more common over the decades, but their average profitability declined, suggesting that while studios continued producing them, the financial returns gradually diminished. In contrast, war films lost both profitability and representation, indicating that they not only became less profitable over time but also less frequently produced, likely reflecting shifting audience interests and historical contexts.
 
