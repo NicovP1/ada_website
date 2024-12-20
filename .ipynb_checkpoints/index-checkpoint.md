@@ -58,6 +58,7 @@ Once again, she observes changes across decades and identifies patterns. She see
     <img src="assets/img/ds_5.png" alt="My Plot 5">
     <figcaption>Figure 5: Median profitability and representation by genre over time.</figcaption>
 </figure>
+<div style="text-align: justify">
 From the data, Annabel notes several patterns. Over the decades, family films became more common but less profitable, while war and romantic films declined in both frequency and returns, reflecting shifting audience preferences and historical contexts. In contrast, LGBT films saw increased representation and profitability as social attitudes evolved. Action films expanded their market share while maintaining stable financial performance. Superhero films emerged later, experiencing profitability peaks and gradually increasing in presence.
 </div>
 
