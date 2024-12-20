@@ -91,15 +91,15 @@ She researches the evolution of the number of US war movies released every year 
 Although at a glance it seems that conflicts such as WWII, the Vietnam War or the Cold War did induce some peak of war movies releases, she tries to confirm it by computing the Pearson correlation between the number of war movies and all movies releases per year. She obtaines a correlation coefficient of 0.62 which she knows indicates a moderate positive linear relationship between the number of war movies per year and the total number of movies per year. The P-value she gets is nearly 0 which suggests the observed correlation is highly statistically significant. She concludes that the variation in war-related movie's releases is greatly related to the variation that exists for all movie's releases that is that the general increase in movies production is a driving factor of the war movies production, so no influence from the wars?
 To get to the end of it she performes an OSL regression, she finds that 38.7% of the variance of the number of war-related movies' releases per year could be explained by the total number of movies' releases per year which suggests that other factors play a role; like the actual wars !
 
-
+Ok war movies may get released at strategic period of concerns, but does it mean that these periods foster higher commercial success?
+Annabel makes a plot similar to the one for the number of releases and takes a look once again:
 
 <figure class="plot10">
     <img src="assets/img/war_movies_BO.png" alt="My Plot 10">
     <figcaption>Figure 10: </figcaption>
 </figure>
 
-
-
+She observes that, altought it fluctuates a lot, there are big peaks of average box office revenue during the Vietnam War/Cold War and that over the last 30 years the genre performs better on average than the rest of the movie industry!
 
 #### Conclusion
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
@@ -112,7 +112,7 @@ Feeling overwhelmed by the abundance of information, Annabel reviews her finding
 | LGBT       | Survival (M), Love (-), Identity (-), Friendship (-) | 1h45               | 30M Budget: December (-), March (-)          | Very scattered profitability but higher peaks in profit <br> Lack of data: results not robust |
 | Romantic   | Deception (-), Resilience (-), Love (+), Identity (-), Friendship (-), Isolation (M), Family (M) | 1h45 | 30M Budget: Winter (+) <br> 60M Budget: June (+) | Steady profitability over time |
 | Superhero  | Family (M), Friendship (M), Identity (+-)      | 1h45               | 150M Budget: June (+), January (+) <br> 100M Budget: October (M) | Very scattered profitability but higher peaks in profit <br> Lack of data: results not robust |
-| War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Slightly influenced by war news in the world |
+| War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Influenced by war news in the world |
 
 **Key:**
 - `M`: Market opportunity (sample size < 10)
