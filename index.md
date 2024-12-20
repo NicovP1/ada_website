@@ -20,40 +20,40 @@ After merging data from multiple sources, cleaning and handling it, Annabel is l
 However, first, she asks herself if there is anything to analyze to draw conclusions on.
 
 <figure class="plot1">
-    <img src="assets/img/plot1.png" alt="My Plot 1">
+    <img src="assets/img/ds_1_histograms.png" alt="My Plot 1">
     <figcaption>Figure 1: A visualization of my data number 1.</figcaption>
 </figure>
 
 <figure class="plot2">
-    <img src="assets/img/plot2.png" alt="My Plot 2">
+    <img src="assets/img/ds_2_profbydecade.png" alt="My Plot 2">
     <figcaption>Figure 1: A visualization of my data number 2.</figcaption>
 </figure>
 
 <figure class="plot3">
-    <img src="assets/img/plot3.png" alt="My Plot 3">
+    <img src="assets/img/ds_3_profpermonth.png" alt="My Plot 3">
     <figcaption>Figure 1: A visualization of my data number 3.</figcaption>
 </figure>
 
 <figure class="plot4">
-    <img src="assets/img/plot4.png" alt="My Plot 4">
+    <img src="assets/img/ds_4_profdistribution.png" alt="My Plot 4">
     <figcaption>Figure 1: A visualization of my data number 4.</figcaption>
 </figure>
 
 <figure class="plot5">
-    <img src="assets/img/plot5.png" alt="My Plot 5">
+    <img src="assets/img/ds_5_proftrends.png" alt="My Plot 5">
     <figcaption>Figure 1: A visualization of my data number 5.</figcaption>
 </figure>
 
 <figure class="plot6">
-    <img src="assets/img/plot6.png" alt="My Plot 6">
+    <img src="assets/img/ds_6_proftrends20.png" alt="My Plot 6">
     <figcaption>Figure 1: A visualization of my data number 6.</figcaption>
 </figure>
 
 <div class="plot7">
-    {% include plot_7.html %}
+    {% include ds_7_plot.html %}
 </div>
 
 <figure class="plot8">
-    <img src="assets/img/plot8.png" alt="My Plot 8">
+    <img src="assets/img/ds_8_profheatmap.png" alt="My Plot 8">
     <figcaption>Figure 1: A visualization of my data number 8.</figcaption>
 </figure>
