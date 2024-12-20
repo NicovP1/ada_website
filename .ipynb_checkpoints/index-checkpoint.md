@@ -81,7 +81,7 @@ Before stating her official guidelines to the film studio, she wants to see how 
 ... ELSA PART...
 
 #### Conclusion
-Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she plans to provide to the film studio into a structured table.
+Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
 
 | Genre      | Recommended Associated Themes                  | Recommended Runtime | Recommended Release Time                       | Comments                                                                 |
 |------------|------------------------------------------------|---------------------|-----------------------------------------------|--------------------------------------------------------------------------|
