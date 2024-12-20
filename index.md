@@ -143,9 +143,65 @@ She observes that, altought it fluctuates a lot, there are big peaks of average 
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
 </div>
 
-<div style="width: 150%">
-    {% include filefile.html %}
+<!-- Centering the table in a Markdown file -->
+<div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+    <table style="border-collapse: collapse; width: 80%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Genre</th>
+                <th>Recommended Associated Themes</th>
+                <th>Recommended Runtime</th>
+                <th>Recommended Release Time</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Action</td>
+                <td>Love (-), Friendship (+)</td>
+                <td>2h</td>
+                <td>90M Budget: December (+); 150M Budget: June (+)</td>
+                <td>Steady profitability over time; Good amount of data: robust results</td>
+            </tr>
+            <tr>
+                <td>Family</td>
+                <td>Deception (M), Family (+), Friendship (+), Identity (+)</td>
+                <td>1h30</td>
+                <td>150M Budget: June (+), January (+); 110M Budget: November (+)</td>
+                <td>Profitability in an upward trend; Good amount of data: robust results</td>
+            </tr>
+            <tr>
+                <td>LGBT</td>
+                <td>Survival (M), Love (-), Identity (-), Friendship (-)</td>
+                <td>1h45</td>
+                <td>30M Budget: December (-); March (-)</td>
+                <td>Very scattered profitability but higher peaks in profit; Lack of data: results not robust</td>
+            </tr>
+            <tr>
+                <td>Romantic</td>
+                <td>Deception (-), Resilience (-), Love (+), Identity (-), Friendship (-), Isolation (M), Family (M)</td>
+                <td>1h45</td>
+                <td>30M Budget: Winter (+); 60M Budget: June (+)</td>
+                <td>Steady profitability over time</td>
+            </tr>
+            <tr>
+                <td>Superhero</td>
+                <td>Family (M), Friendship (M), Identity (+-)</td>
+                <td>1h45</td>
+                <td>150M Budget: June (+), January (+); 100M Budget: October (M)</td>
+                <td>Very scattered profitability but higher peaks in profit; Lack of data: results not robust</td>
+            </tr>
+            <tr>
+                <td>War</td>
+                <td>Resilience (M), Love (M), Redemption (-)</td>
+                <td>2h</td>
+                <td>100M Budget: November (-); Summer (-)</td>
+                <td>Peaks during conflicts</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
+
 
 **Key:**
 - `M`: Market opportunity (sample size < 10)
