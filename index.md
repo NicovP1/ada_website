@@ -141,7 +141,7 @@ She observes that, altought it fluctuates a lot, there are big peaks of average 
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
 </div>
 
-<div class="plot7">
+<div class="plot7" style="width: 150%;">
     {% include filefile.html %}
 </div>
 
