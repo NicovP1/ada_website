@@ -70,13 +70,13 @@ Through the interactive plot, Annabel visualizes multiple dimensions simultaneou
 Annabel wonders how the combination of a film’s genre and underlying theme might influence its financial performance. She decides to use the mean profitability as metric instead of the median, as some sample sizes are very small.
 
 <figure class="plot8">
-    <img src="assets/img/ds_8_profheatmap.png" alt="My Plot 8">
+    <img src="assets/img/heatmap_profit_genre_theme.png" alt="My Plot 8">
     <figcaption>Figure 8: Heatmap of mean profitability for each theme-genre pair</figcaption>
 </figure>
 
 Annabel could identify which theme-genre pair seems to resonate strongly with audiences within particular genres. Sample size has its importance too : while a higher sample size may indicate more robust values, low sample sizes means a theme-genre pair wasn't done that much, and if the first movies for it went well indicate there might be a market opportunity.
 
-## Study case: War movies
+## Case study: War movies
 
 Before stating her official guidelines to the film studio, she wants to see how major events (like wars) influenced movie releases of the war genre. 
 
@@ -107,27 +107,17 @@ Feeling overwhelmed by the abundance of information, Annabel reviews her finding
 
 | Genre      | Recommended Associated Themes                  | Recommended Runtime | Recommended Release Time                       | Comments                                                                 |
 |------------|------------------------------------------------|---------------------|-----------------------------------------------|--------------------------------------------------------------------------|
-| Action     | Love (-), Friendship (+)                      | 2h                  | 90M Budget: December (+) <br> 150M Budget: June (+) | Steady profitability over time <br> Good amount of data: robust results |
-| Family     | Deception (M), Family (+), Friendship (+), Identity (+) | 1h30               | 150M Budget: June (+), January (+) <br> 110M Budget: November (+) | Profitability in an upward trend <br> Good amount of data: robust results |
-| LGBT       | Survival (M), Love (-), Identity (-), Friendship (-) | 1h45               | 30M Budget: December (-), March (-)          | Very scattered profitability but higher peaks in profit <br> Lack of data: results not robust |
-| Romantic   | Deception (-), Resilience (-), Love (+), Identity (-), Friendship (-), Isolation (M), Family (M) | 1h45 | 30M Budget: Winter (+) <br> 60M Budget: June (+) | Steady profitability over time |
-| Superhero  | Family (M), Friendship (M), Identity (+-)      | 1h45               | 150M Budget: June (+), January (+) <br> 100M Budget: October (M) | Very scattered profitability but higher peaks in profit <br> Lack of data: results not robust |
-| War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Influenced by war news in the world |
+| Action     | Love (-), Friendship (+)                      | 2h                  | 90M Budget: December (+)  ;  150M Budget: June (+) | Steady profitability over time  ;  Good amount of data: robust results |
+| Family     | Deception (M), Family (+), Friendship (+), Identity (+) | 1h30               | 150M Budget: June (+), January (+)  ;  110M Budget: November (+) | Profitability in an upward trend  ;  Good amount of data: robust results |
+| LGBT       | Survival (M), Love (-), Identity (-), Friendship (-) | 1h45               | 30M Budget: December (-), March (-)          | Very scattered profitability but higher peaks in profit  ;  Lack of data: results not robust |
+| Romantic   | Deception (-), Resilience (-), Love (+), Identity (-), Friendship (-), Isolation (M), Family (M) | 1h45 | 30M Budget: Winter (+)  ;  60M Budget: June (+) | Steady profitability over time |
+| Superhero  | Family (M), Friendship (M), Identity (+-)      | 1h45               | 150M Budget: June (+), January (+)  ;  100M Budget: October (M) | Very scattered profitability but higher peaks in profit  ;  Lack of data: results not robust |
+| War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Peaks during conflicts |
 
 **Key:**
 - `M`: Market opportunity (sample size < 10)
 - `+`: Sample size > 30
 - `-`: Sample size < 30
 
-
-
-
-REFAIRE APT D'ICI AUSSI
-
-
-In the end, Annabel’s exploration through historical data didn’t simply provide a set of guidelines—it gave her the confidence and intuition needed to advise the studio’s leadership with greater clarity. By starting at the most basic distributions and gradually layering on time, genre, and thematic factors, she realized that the “perfect” release strategy wasn’t a fixed formula. Instead, it emerged as a nuanced blend of insights: some months and seasons offered steadier prospects, certain genres had proven track records (even if their popularity ebbed and flowed), and themes resonated differently depending on cultural shifts and audience evolution.
-
-These findings empowered Annabel to move beyond rote scheduling suggestions. She could now propose data-driven release windows aligned with historically favorable conditions, adapt genre choices to reflect current market realities, and recommend story elements likely to engage viewers. More importantly, by seeing how profitability patterns changed across decades, she gained an appreciation for the industry’s dynamic nature. What worked in the mid-20th century might not hold true today, yet understanding past trajectories helped her anticipate where the market could be heading.
-
-Ultimately, the patterns Annabel uncovered granted her more than a list of do’s and don’ts. They offered perspective. She learned that while no single factor guaranteed success, a thoughtful combination of timing, genre, and thematic alignment—grounded in historical evidence—could significantly improve a film’s odds in an uncertain landscape. Armed with these intuitions, Annabel could now advise the studio with greater conviction, guiding them toward informed, flexible strategies capable of thriving in a continuously evolving industry.
+In the end, Annabel’s exploration through historical data didn’t simply provide a set of guidelines. By starting at the most basic distributions and gradually layering on time, genre, and themes, she realized that the “perfect” release strategy wasn’t a fixed formula. Instead, there are numerous nuances that contribute or not to a movie success.
 
