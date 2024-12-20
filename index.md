@@ -95,7 +95,23 @@ friendship - superhero
 
 
 Before stating her official guidelines to the film studio, she wants to see how major events (like wars) influenced movie releases of the war genre. 
+
 ... ELSA PART...
+
+<figure class="plot9">
+    <img src="assets/img/war_movies_over_time_smoothed.png" alt="My Plot 9">
+    <figcaption>Figure 9: </figcaption>
+</figure>
+
+
+
+<figure class="plot10">
+    <img src="assets/img/war_movies_BO.png" alt="My Plot 10">
+    <figcaption>Figure 10: </figcaption>
+</figure>
+
+
+
 #### Conclusion
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she plans to provide to the film studio into a structured table.
 
