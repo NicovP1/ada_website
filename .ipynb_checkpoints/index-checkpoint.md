@@ -78,17 +78,32 @@ Annabel could identify which theme-genre pair seems to resonate strongly with au
 
 
 Before stating her official guidelines to the film studio, she wants to see how major events (like wars) influenced movie releases of the war genre. 
-... ELSA PART...
+
+<figure class="plot9">
+    <img src="assets/img/war_movies_over_time_smoothed.png" alt="My Plot 9">
+    <figcaption>Figure 9: </figcaption>
+</figure>
+
+
+
+<figure class="plot10">
+    <img src="assets/img/war_movies_BO.png" alt="My Plot 10">
+    <figcaption>Figure 10: </figcaption>
+</figure>
+
+
+
 
 #### Conclusion
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
 
+
 | Genre      | Recommended Associated Themes                  | Recommended Runtime | Recommended Release Time                       | Comments                                                                 |
 |------------|------------------------------------------------|---------------------|-----------------------------------------------|--------------------------------------------------------------------------|
-| Action     | Love (+-), Friendship (+)                      | 2h                  | 90M Budget: December (+) <br> 150M Budget: June (+) | Steady profitability over time <br> Good amount of data: robust results |
+| Action     | Love (-), Friendship (+)                      | 2h                  | 90M Budget: December (+) <br> 150M Budget: June (+) | Steady profitability over time <br> Good amount of data: robust results |
 | Family     | Deception (M), Family (+), Friendship (+), Identity (+) | 1h30               | 150M Budget: June (+), January (+) <br> 110M Budget: November (+) | Profitability in an upward trend <br> Good amount of data: robust results |
 | LGBT       | Survival (M), Love (-), Identity (-), Friendship (-) | 1h45               | 30M Budget: December (-), March (-)          | Very scattered profitability but higher peaks in profit <br> Lack of data: results not robust |
-| Romantic   | Deception (-), Resilience (-), Love (+), Identity (+-), Friendship (-), Isolation (M), Family (M) | 1h45 | 30M Budget: Winter (+) <br> 60M Budget: June (+) | Steady profitability over time |
+| Romantic   | Deception (-), Resilience (-), Love (+), Identity (-), Friendship (-), Isolation (M), Family (M) | 1h45 | 30M Budget: Winter (+) <br> 60M Budget: June (+) | Steady profitability over time |
 | Superhero  | Family (M), Friendship (M), Identity (+-)      | 1h45               | 150M Budget: June (+), January (+) <br> 100M Budget: October (M) | Very scattered profitability but higher peaks in profit <br> Lack of data: results not robust |
 | War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Slightly influenced by war news in the world |
 
