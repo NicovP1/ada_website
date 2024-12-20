@@ -145,7 +145,7 @@ Feeling overwhelmed by the abundance of information, Annabel reviews her finding
 
 <!-- Centering the table in a Markdown file -->
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-    <table style="border-collapse: collapse; width: 80%; text-align: left;">
+    <table style="border-collapse: collapse; width: 150%; text-align: left;">
         <thead>
             <tr>
                 <th>Genre</th>
