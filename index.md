@@ -82,7 +82,7 @@ By comparing these recent trends with the longer historical arcs, Annabel demons
 <div class="plot7">
     {% include ds_7_plot.html %}
 </div>
-<div align="center">Figure 7: Median profitability per genre and release month. Users can adjust the bubble size to visualize different metrics—such as median budget, runtime, or sample size.</div>
+<div align="center">Figure 7: Median profitability per genre and release month. Users can adjust the bubble size to visualize different metrics—such as median budget, runtime, or sample size.<br></div>
 
 
 <div style="text-align: justify">
