@@ -137,6 +137,12 @@ hr.small {
   height: auto;           /* Keeps proper aspect ratio */
 }
 
+.table-container {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers the table horizontally */
+    margin: 20px; /* Adds space around the container */
+}
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";
