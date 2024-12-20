@@ -143,19 +143,9 @@ She observes that, altought it fluctuates a lot, there are big peaks of average 
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
 </div>
 
-<div class="plot1" style="width: 150%; margin: 0 auto; text-align: center;">
+<div class="plot7" style="width: 150%; display: flex; justify-content: center; align-items: center;">
     {% include filefile.html %}
 </div>
-
-
-| Genre      | Recommended Associated Themes                  | Recommended Runtime | Recommended Release Time                       | Comments                                                                 |
-|------------|------------------------------------------------|---------------------|-----------------------------------------------|--------------------------------------------------------------------------|
-| Action     | Love (-), Friendship (+)                      | 2h                  | 90M Budget: December (+)  ;  150M Budget: June (+) | Steady profitability over time  ;  Good amount of data: robust results |
-| Family     | Deception (M), Family (+), Friendship (+), Identity (+) | 1h30               | 150M Budget: June (+), January (+)  ;  110M Budget: November (+) | Profitability in an upward trend  ;  Good amount of data: robust results |
-| LGBT       | Survival (M), Love (-), Identity (-), Friendship (-) | 1h45               | 30M Budget: December (-), March (-)          | Very scattered profitability but higher peaks in profit  ;  Lack of data: results not robust |
-| Romantic   | Deception (-), Resilience (-), Love (+), Identity (-), Friendship (-), Isolation (M), Family (M) | 1h45 | 30M Budget: Winter (+)  ;  60M Budget: June (+) | Steady profitability over time |
-| Superhero  | Family (M), Friendship (M), Identity (+-)      | 1h45               | 150M Budget: June (+), January (+)  ;  100M Budget: October (M) | Very scattered profitability but higher peaks in profit  ;  Lack of data: results not robust |
-| War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Peaks during conflicts |
 
 **Key:**
 - `M`: Market opportunity (sample size < 10)

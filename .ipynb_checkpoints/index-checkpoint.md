@@ -23,7 +23,7 @@ Annabel’s data review reveals a wide range of budgets, from small films to big
 </div>
 
 ### How Did Film Profitability and Success Rates Evolve?
-<div style="text-align: justify">
+<div style="text-align: justify; margin-bottom: 20px;">
 Annabel suspects movies are less profitable today due to competition from alternative entertainment forms. To test her hypothesis, she considers a movie being successful if profitability > 1 and uses the median profitability due to skewed distributions and aggregates by decade to account for the low amount of samples in the earlier years, while also plotting yearly trends for recent decades with more data available.
 </div>
 
@@ -43,7 +43,7 @@ As she feared, when looking at the century-spanning trends, Annabel found that o
     <figcaption>Figure 3: profitability across months.</figcaption>
 </figure>
 
-<div style="text-align: justify">
+<div style="text-align: justify; margin-bottom: 20px;">
 Some months regardless of the release year, such as June or December, exhibited higher median profitability, but also greater unpredictability. Others, like January or March, showed lower returns on average, yet more consistency and fewer extreme results. Annabel is ecstatic about the results! Therefore, she decides to investigate further by seeing what months were the most profitable across decades, represented as the month's share of profitability across the total profitability of the decade, and more generally across seasons. 
 </div>
 
@@ -51,6 +51,7 @@ Some months regardless of the release year, such as June or December, exhibited 
     <img src="assets/img/ds_4_profdistribution.png" alt="My Plot 4">
     <figcaption>Figure 4: Monthly Profitability Distribution by Season Across Decades.</figcaption>
 </figure>
+<div style="text-align: justify; margin-bottom: 20px;">
 Once again, she observes changes across decades and identifies patterns. She sees growth in spring months and from the mid-century, a decline in certain fall months, winter season consistently maintaining a relatively stable share, while summer saw significant variability. Now Annabel focuses on how profitability and genre representation have shifted over time across various film genres. 
 </div>
 
@@ -58,7 +59,7 @@ Once again, she observes changes across decades and identifies patterns. She see
     <img src="assets/img/ds_5.png" alt="My Plot 5">
     <figcaption>Figure 5: Median profitability and representation by genre over time.</figcaption>
 </figure>
-<div style="text-align: justify">
+<div style="text-align: justify; margin-bottom: 20px;">
 From the data, Annabel notes several patterns. Over the decades, family films became more common but less profitable, while war and romantic films declined in both frequency and returns, reflecting shifting audience preferences and historical contexts. In contrast, LGBT films saw increased representation and profitability as social attitudes evolved. Action films expanded their market share while maintaining stable financial performance. Superhero films emerged later, experiencing profitability peaks and gradually increasing in presence.
 </div>
 
@@ -73,7 +74,7 @@ While analyzing long-term trends reveals how societal preferences have evolved, 
     <figcaption>Figure 6: Median profitability and representation by genre over the last 20 years</figcaption>
 </figure>
 
-<div style="text-align: justify">
+<div style="text-align: justify; margin-bottom: 20px;">
 The results did not disapoint, there are some differences with the per-decade figures. In the past two decades, family films have rebounded in profitability, suggesting better alignment with audience preferences. War films, though still less profitable, have stabilized in representation. Romantic films appear to have plateaued after a long decline. LGBT films, once steadily rising, now show more variability, indicating an evolving market. Action films continue their profitable upward trend, while superhero films, benefiting from established franchises and strategic marketing, demonstrate clear growth.
 </div>
 
@@ -87,7 +88,7 @@ By comparing these recent trends with the longer historical arcs, Annabel demons
 <div align="center">Figure 7: Median profitability per genre and release month. Users can adjust the bubble size to visualize different metrics—such as median budget, runtime, or sample size.<br></div>
 
 
-<div style="text-align: justify">
+<div style="text-align: justify; margin-top: 20px;">
 Through the interactive plot, Annabel visualizes multiple dimensions simultaneously, connecting earlier findings and emphasizing month-by-month analysis. She seeks bubbles positioned high, indicating strong profitability, with small budgets and high sample counts, ensuring the figures are robust and supported by more data. The analysis reveals that optimal release strategies vary by genre, each having different budgets, runtimes, and release months, most are peaking around December and June, consistent with earlier findings.
 </div>
 
@@ -142,18 +143,9 @@ She observes that, altought it fluctuates a lot, there are big peaks of average 
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
 </div>
 
-<div class="plot1" style="width: 150%;">
+<div class="plot7" style="width: 150%; display: flex; justify-content: center; align-items: center;">
     {% include filefile.html %}
 </div>
-
-| Genre      | Recommended Associated Themes                  | Recommended Runtime | Recommended Release Time                       | Comments                                                                 |
-|------------|------------------------------------------------|---------------------|-----------------------------------------------|--------------------------------------------------------------------------|
-| Action     | Love (-), Friendship (+)                      | 2h                  | 90M Budget: December (+)  ;  150M Budget: June (+) | Steady profitability over time  ;  Good amount of data: robust results |
-| Family     | Deception (M), Family (+), Friendship (+), Identity (+) | 1h30               | 150M Budget: June (+), January (+)  ;  110M Budget: November (+) | Profitability in an upward trend  ;  Good amount of data: robust results |
-| LGBT       | Survival (M), Love (-), Identity (-), Friendship (-) | 1h45               | 30M Budget: December (-), March (-)          | Very scattered profitability but higher peaks in profit  ;  Lack of data: results not robust |
-| Romantic   | Deception (-), Resilience (-), Love (+), Identity (-), Friendship (-), Isolation (M), Family (M) | 1h45 | 30M Budget: Winter (+)  ;  60M Budget: June (+) | Steady profitability over time |
-| Superhero  | Family (M), Friendship (M), Identity (+-)      | 1h45               | 150M Budget: June (+), January (+)  ;  100M Budget: October (M) | Very scattered profitability but higher peaks in profit  ;  Lack of data: results not robust |
-| War        | Resilience (M), Love (M), Redemption (-)       | 2h                  | 100M Budget: November (-), Summer (-)        | Peaks during conflicts |
 
 **Key:**
 - `M`: Market opportunity (sample size < 10)
