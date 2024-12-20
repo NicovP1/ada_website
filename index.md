@@ -85,7 +85,7 @@ She researches the evolution of the number of US war movies released every year 
 
 <figure class="plot9">
     <img src="assets/img/war_movies_over_time_smoothed.png" alt="My Plot 9">
-    <figcaption>Figure 9: </figcaption>
+    <figcaption>Figure 9: Movie releases per year (smoothed on a 3-years window)</figcaption>
 </figure>
 
 Although at a glance it seems that conflicts such as WWII, the Vietnam War or the Cold War did induce some peak of war movies releases, she tries to confirm it by computing the Pearson correlation between the number of war movies and all movies releases per year. She obtaines a correlation coefficient of 0.62 which she knows indicates a moderate positive linear relationship between the number of war movies per year and the total number of movies per year. The P-value she gets is nearly 0 which suggests the observed correlation is highly statistically significant. She concludes that the variation in war-related movie's releases is greatly related to the variation that exists for all movie's releases that is that the general increase in movies production is a driving factor of the war movies production, so no influence from the wars?
@@ -96,7 +96,7 @@ Annabel makes a plot similar to the one for the number of releases and takes a l
 
 <figure class="plot10">
     <img src="assets/img/war_movies_BO.png" alt="My Plot 10">
-    <figcaption>Figure 10: </figcaption>
+    <figcaption>Figure 10: Average box office revenues per year (smoothed on a 3-years window) </figcaption>
 </figure>
 
 She observes that, altought it fluctuates a lot, there are big peaks of average box office revenue during the Vietnam War/Cold War and that over the last 30 years the genre performs better on average than the rest of the movie industry!
