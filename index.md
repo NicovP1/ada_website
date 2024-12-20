@@ -43,7 +43,7 @@ As she feared, when looking at the century-spanning trends, Annabel found that o
     <figcaption>Figure 3: profitability across months.</figcaption>
 </figure>
 
-<div style="text-align: justify">
+<div style="text-align: justify; margin-bottom: 20px;">
 Some months regardless of the release year, such as June or December, exhibited higher median profitability, but also greater unpredictability. Others, like January or March, showed lower returns on average, yet more consistency and fewer extreme results. Annabel is ecstatic about the results! Therefore, she decides to investigate further by seeing what months were the most profitable across decades, represented as the month's share of profitability across the total profitability of the decade, and more generally across seasons. 
 </div>
 
@@ -51,6 +51,7 @@ Some months regardless of the release year, such as June or December, exhibited 
     <img src="assets/img/ds_4_profdistribution.png" alt="My Plot 4">
     <figcaption>Figure 4: Monthly Profitability Distribution by Season Across Decades.</figcaption>
 </figure>
+<div style="text-align: justify; margin-bottom: 20px;">
 Once again, she observes changes across decades and identifies patterns. She sees growth in spring months and from the mid-century, a decline in certain fall months, winter season consistently maintaining a relatively stable share, while summer saw significant variability. Now Annabel focuses on how profitability and genre representation have shifted over time across various film genres. 
 </div>
 
@@ -58,7 +59,7 @@ Once again, she observes changes across decades and identifies patterns. She see
     <img src="assets/img/ds_5.png" alt="My Plot 5">
     <figcaption>Figure 5: Median profitability and representation by genre over time.</figcaption>
 </figure>
-<div style="text-align: justify">
+<div style="text-align: justify; margin-bottom: 20px;">
 From the data, Annabel notes several patterns. Over the decades, family films became more common but less profitable, while war and romantic films declined in both frequency and returns, reflecting shifting audience preferences and historical contexts. In contrast, LGBT films saw increased representation and profitability as social attitudes evolved. Action films expanded their market share while maintaining stable financial performance. Superhero films emerged later, experiencing profitability peaks and gradually increasing in presence.
 </div>
 
@@ -73,7 +74,7 @@ While analyzing long-term trends reveals how societal preferences have evolved, 
     <figcaption>Figure 6: Median profitability and representation by genre over the last 20 years</figcaption>
 </figure>
 
-<div style="text-align: justify">
+<div style="text-align: justify; margin-bottom: 20px;">
 The results did not disapoint, there are some differences with the per-decade figures. In the past two decades, family films have rebounded in profitability, suggesting better alignment with audience preferences. War films, though still less profitable, have stabilized in representation. Romantic films appear to have plateaued after a long decline. LGBT films, once steadily rising, now show more variability, indicating an evolving market. Action films continue their profitable upward trend, while superhero films, benefiting from established franchises and strategic marketing, demonstrate clear growth.
 </div>
 
@@ -87,7 +88,7 @@ By comparing these recent trends with the longer historical arcs, Annabel demons
 <div align="center">Figure 7: Median profitability per genre and release month. Users can adjust the bubble size to visualize different metrics—such as median budget, runtime, or sample size.<br></div>
 
 
-<div style="text-align: justify">
+<div style="text-align: justify; margin-top: 20px;">
 Through the interactive plot, Annabel visualizes multiple dimensions simultaneously, connecting earlier findings and emphasizing month-by-month analysis. She seeks bubbles positioned high, indicating strong profitability, with small budgets and high sample counts, ensuring the figures are robust and supported by more data. The analysis reveals that optimal release strategies vary by genre, each having different budgets, runtimes, and release months, most are peaking around December and June, consistent with earlier findings.
 </div>
 
