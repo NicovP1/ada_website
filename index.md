@@ -23,7 +23,7 @@ Annabel’s data review reveals a wide range of budgets, from small films to big
 </div>
 
 ### How Did Film Profitability and Success Rates Evolve?
-<div style="text-align: justify">
+<div style="text-align: justify; margin-bottom: 20px;">
 Annabel suspects movies are less profitable today due to competition from alternative entertainment forms. To test her hypothesis, she considers a movie being successful if profitability > 1 and uses the median profitability due to skewed distributions and aggregates by decade to account for the low amount of samples in the earlier years, while also plotting yearly trends for recent decades with more data available.
 </div>
 
