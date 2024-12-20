@@ -106,9 +106,7 @@ In this visualization, each cell represented a unique genre-theme pairing, with 
 
 This perspective helped Annabel understand not only when or what type of movies performed well, but also why certain films might stand out. Identifying profitable theme-genre pairs allowed her to connect previous insights—like the decline in certain genres or the rise in others—to the narrative and emotional elements that drive audience engagement. If a particular theme thrived in a stable or upward-trending genre, it suggested opportunities for studios to develop content more aligned with those favored combinations.
 
-In the context of her broader story, this heatmap represented another layer of detail, following the earlier analyses of timing, long-term trends, and genre-specific shifts. By adding thematic content into the equation, Annabel gave stakeholders a more comprehensive toolkit for decision-making: they now had insights into not just when to release a film or which genre might be profitable, but also which themes, paired with the right genre, had historically yielded strong financial results.
-
-
+#### Conclusion
 
 In the end, Annabel’s exploration through historical data didn’t simply provide a set of guidelines—it gave her the confidence and intuition needed to advise the studio’s leadership with greater clarity. By starting at the most basic distributions and gradually layering on time, genre, and thematic factors, she realized that the “perfect” release strategy wasn’t a fixed formula. Instead, it emerged as a nuanced blend of insights: some months and seasons offered steadier prospects, certain genres had proven track records (even if their popularity ebbed and flowed), and themes resonated differently depending on cultural shifts and audience evolution.
 
