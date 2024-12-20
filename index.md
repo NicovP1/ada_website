@@ -4,33 +4,23 @@ title: Annabel's story
 subtitle: The way of the data analyst
 ---
 
-Annabel, a young data analyst, has just joined a major American film studio which just got a new investor to finance the production of new movies across 6 genres : Family, War, Romance, Romantic, LGBT, Action and Superhero. After several disappointing box-office results in recent years, the CEO which was promised a cut on each movies' profits wants to maximize the chances of success by identifying ideal release periods along with what kind of movies are the most popular, and profitable. By analyzing historical trends and patterns, Annabel’s job is to advise on the best practices to adopt for each upcoming movie while also pinpointing the key factors that make movies profitable. Her findings ultimately reveal a deeper truth about how movies evolved over time.
+Annabel, a young data analyst, has just joined a major American film studio recently backed by a new investor financing movies across six genres: Family, War, Romance, LGBT, Action, and Superhero. After several disappointing box-office results, the CEO—promised a cut of each movie's profits—wants to identify the most profitable genres, ideal release periods,and general practices. Annabel’s job is to uncover key factors driving movie success through historical trend analysis.
 
-
-**What Drives Movie Success: Genres, Themes, or Release Timing?**
-To guide her analysis effectively, Annabel considers which factors contribute most to a movie’s success. Taking the perspective of a producer and investor focused solely on maximizing profit, she chooses to evaluate success based on profitability, measured as the ratio of box office revenue to production budget. This approach reflects financial success regardless of audience appreciation, which isn’t always a reliable indicator in today’s market (as seen with the most recent Star Wars episodes).
-
-After merging data from multiple sources, cleaning and handling it (for example through adjusting the budget and revenue figures to inflation), Annabel is left with movie records spanning over 100 years. She wonders whether including such old data is meaningful and won't harm her analysis, given how much society has evolved over time. Factors like movie runtimes, peak release months, popular genres, and dominant genres may have changed significantly. For example, early films often had shorter runtimes due to technological limitations, while genres like superhero movies only gained popularity in recent decades.
-
-A key assumption Annabel makes is that her dataset is representative of the movie industry in terms of genre distribution, meaning no specific genre is disproportionately underrepresented in any given year. However, the overall number of movies in the dataset may not be evenly distributed across time, as older movies (e.g., from 100 years ago) are less likely to be included compared to more recent releases. This does not imply that fewer movies were produced in the past.
-
-First, she asks herself if there is anything to analyze to draw conclusions on.
-
-Before Annabel could delve into deeper patterns or complex relationships, she needed to understand the basic shape and scope of the data at her disposal. Figure 1 serves as this initial checkpoint. Here, she examined histograms of budgets, profitability, revenue, and the count of movies produced in each decade. 
+### What Drives Movie Success: Genres, Themes, or Release Timing? 
+Focusing on profitability, measured as the ratio of box office revenue to production budget, Annabel evaluates financial success rather than audience appreciation. After merging and cleaning over 100 years of movie data (adjusted for inflation), she wonders if including older records might distort her analysis due to changes in movie-making trends like runtimes or evolving genre popularity. She assumes her dataset fairly represents the industry’s genre distribution, she proceeds, aware that older movies may be underrepresented due to limited historical records. Now, she asks herself: Is there enough meaningful data to draw actionable conclusions?
 
 <figure class="plot1">
-    <img src="assets/img/ds_1_histograms.png" alt="My Plot 1">
+    <img src="assets/img/plot1.png" alt="My Plot 1">
     <figcaption>Figure 1: Preliminary Data Distributions.</figcaption>
 </figure>
 
-In reviewing these distributions, Annabel sees that budgets spanned several orders of magnitude, indicating that the dataset captured productions ranging from low-cost independent films to big-budget blockbusters. More importantly, the profitability histogram revealed a broad spectrum of outcomes, reassuring her that some films clearly succeeded financially while others struggled to break even. Similarly, the revenue distribution reaffirmed the presence of both modest earners and record-breaking hits. Annabel is relieved, she won't loose her job! 
+Annabel’s data review reveals a wide range of budgets, from small films to big-budget blockbusters, and a broad spectrum of profitability and revenue figures. Relieved by this variety, she’s confident her analysis will be meaningful. However, the number of movies per decade decreases significantly in earlier years, prompting her to be cautious when interpreting trends.  
 
-The final histogram, showing the number of movies per decade, demonstrated that the dataset covered a wide historical range. As she feared, there are a lot less movies captured during the earlier years. She knows she will have to pay attention to this when considering using means, medians or when observing trends. Now understanding the underlying distributions and sample sizes up front, she can proceed confidently!
-
-Annabel begins her analysis by examining the big picture: **how did film profitability and success rates evolved over the last century?** She believes that movies are less profitable now due to the rise of alternative forms of entertainment. To test her hypothesis, she creates Figure 2, showing regression plots with the 95% confidence interval of the median profitability and success rate by decade and by year for the past 20 years. A movie is considered successful if it made a profit (profitability > 1). She uses the median profitability because the distribution of profitability figures is skewed and aggregates by decade to account for smaller sample sizes in earlier years. To highlight more recent trends where yearly sample sizes are larger, she also includes a second plot showing the median profitability by year.
+### How Did Film Profitability and Success Rates Evolve?**  
+Annabel suspects movies are less profitable today due to competition from alternative entertainment. To test this, she creates regression plots with 95% confidence intervals showing median profitability and success rates by decade and year. A movie is successful if profitability > 1. She uses the median due to skewed distributions and aggregates by decade to offset smaller early-year samples, while also plotting yearly trends for recent decades.
 
 <figure class="plot2">
-    <img src="assets/img/ds_2_profbydecade.png" alt="My Plot 2">
+    <img src="assets/img/plot2.png" alt="My Plot 2">
     <figcaption>Figure 2: Long-Term Trends in Median Profitability and Success Rate.</figcaption>
 </figure>
 
@@ -41,7 +31,7 @@ This long-term perspective provided a critical backdrop. Understanding that the 
 Building on this historical foundation, Annabel next examined how profitability varies month by month. She introduced Figure 3: Profitability Per Month, focusing on boxplots to reveal central tendencies, variability, and outliers within each month’s data. While the long-term view showed a general decline in profitability, this month-level breakdown offered more immediate and actionable intelligence for scheduling and marketing decisions.
 
 <figure class="plot3">
-    <img src="assets/img/ds_3_profpermonth.png" alt="My Plot 3">
+    <img src="assets/img/plot3.png" alt="My Plot 3">
     <figcaption>Figure 3: Profitability Per Month.</figcaption>
 </figure>
 Some months, such as June or December, exhibited higher median profitability, but also greater unpredictability. Others, like January or March, showed lower returns on average, yet more consistency and fewer extreme results. The volume of releases per month also influenced the distribution, with higher-volume months displaying a wider range of outcomes due to the greater variety of films released.
@@ -52,7 +42,7 @@ Annabel’s analysis reached a critical juncture once she compiled historical pr
 
 This is where Figure 4: Monthly Profitability Distribution by Season Across Decades is introduced, placed after the initial descriptive analysis of overall seasonal shifts. The figure consists of four panels—one for each season—displaying how each month’s share of profitable outcomes has changed over successive decades. By examining these lines, one can observe long-term trends, such as the gradual strengthening of certain winter months or the periodic rises and falls in summer profitability.
 <figure class="plot4">
-    <img src="assets/img/ds_4_profdistribution.png" alt="My Plot 4">
+    <img src="assets/img/plot4.png" alt="My Plot 4">
     <figcaption>Figure 4: Monthly Profitability Distribution by Season Across Decades.</figcaption>
 </figure>
 Annabel would present the figure immediately following her general overview of seasonal tendencies. Prior to showing it, she briefly discusses the methodological approach: how profitability percentages were calculated per decade, how months were assigned to seasons, and why focusing on aggregated historical data can provide a more stable reference point than short-term fluctuations.
@@ -64,7 +54,7 @@ After the figure, Annabel draws attention to key observations. For instance, she
 
 After presenting Figure 4, Annabel directed attention to the shifts in profitability and representation across different film genres over time. Unlike the previous figures that focused on seasonal patterns, decades-long trends, or industry-wide profitability, Figure 5 offered a more granular view at the genre level. Each column represented a genre, with the top row illustrating changes in median profitability and the bottom row showing how frequently that genre appeared as a portion of the total film market.
 <figure class="plot5">
-    <img src="assets/img/ds_5_proftrends.png" alt="My Plot 5">
+    <img src="assets/img/plot5.png" alt="My Plot 5">
     <figcaption>Figure 5: Profitability Trends and Representation by Genre Over Time.</figcaption>
 </figure>
 From the data, Annabel noted several patterns. Family films, for instance, grew more common over the decades, but their average profitability declined, suggesting that while studios continued producing them, the financial returns gradually diminished. In contrast, war films lost both profitability and representation, indicating that they not only became less profitable over time but also less frequently produced, likely reflecting shifting audience interests and historical contexts.
@@ -76,7 +66,7 @@ By examining these genre-specific trajectories, Annabel established that no sing
 
 After discussing the long-term patterns shown in Figure 5, Annabel introduced a similar figure focusing on the last 20 years to see how these trends have evolved more recently. Whereas the century-spanning data showed slow, steady changes, this shorter timeframe revealed quicker adjustments and potential turnarounds in certain genres.
 <figure class="plot6">
-    <img src="assets/img/ds_6_proftrends20.png" alt="My Plot 6">
+    <img src="assets/img/plot6.png" alt="My Plot 6">
     <figcaption>Figure 1: A visualization of my data number 6.</figcaption>
 </figure>
 For example, Family films, which had been steadily losing profitability over the long term despite increasing in prevalence, now show rising profits, suggesting that producers may have adapted to audience needs more effectively. War films, previously declining in both profitability and presence, appear relatively stable in representation now, though still less profitable than in earlier decades. Romantic films, once in continuous decline, now seem to have leveled off, indicating that their reduced appeal may have reached a plateau.
@@ -88,7 +78,7 @@ By comparing these recent trends with the longer historical arcs, Annabel demons
 
 As her analysis neared completion, Annabel introduced a new, interactive visualization to complement the static figures presented earlier. After showing long-term patterns, decade-specific shifts, and recent changes in profitability and representation by genre, she now offered an interactive bubble chart focusing on the last 20 years, broken down by release month and filtered by genre. By placing this tool after the previous figures, she allowed stakeholders to drill deeper into the specific conditions that contribute to a film’s financial outcome.
 <div class="plot7">
-    {% include ds_7_plot.html %}
+    {% include plot_7.html %}
 </div>
 In this interactive chart, each bubble represents the median profitability of films released in a particular month for a given genre. Users can adjust the bubble size to reflect different metrics—such as median budget, runtime, or sample size. For instance, a large bubble with a modest median budget might indicate that profitable returns are achievable without massive financial investments, especially if it appears in months previously identified as stable or promising. Conversely, smaller bubbles or those corresponding to large budgets may prompt the viewer to question the return on high-cost productions in certain periods.
 
@@ -99,7 +89,7 @@ By incorporating this interactive bubble chart at this stage in the narrative, A
 
 Following the introduction of interactive visuals and temporal breakdowns, Annabel next presented a heatmap that linked movie genres to thematic elements. Placed after the previous figures that focused on time-based trends and genre-level profitability, this heatmap offered a different angle: it highlighted how the combination of a film’s genre and underlying theme might influence its financial performance.
 <figure class="plot8">
-    <img src="assets/img/ds_8_profheatmap.png" alt="My Plot 8">
+    <img src="assets/img/plot8.png" alt="My Plot 8">
     <figcaption>Figure 1: A visualization of my data number 8.</figcaption>
 </figure>
 In this visualization, each cell represented a unique genre-theme pairing, with color intensity indicating median profitability. Alongside the profitability values, sample counts were provided in parentheses, giving a sense of how frequently that combination appeared. By examining this matrix, Annabel could identify which themes seemed to resonate strongly with audiences within particular genres. For example, she might notice that “Family” themes performed well in the Family genre but less so in War films, or that “Friendship” consistently correlated with higher profitability across multiple genres—provided there were enough samples to support that observation.
