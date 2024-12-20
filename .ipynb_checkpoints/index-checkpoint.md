@@ -3,8 +3,9 @@ layout: home
 title: Annabel's story
 subtitle: The way of the data analyst
 ---
-
+<div style="text-align: justify">
 Annabel, a young data analyst, has just joined a major American film studio recently backed by a new investor financing movies across six genres: Family, War, Romance, LGBT, Action, and Superhero. After several disappointing box-office results, the CEO—promised a cut of each movie's profits—wants to identify the most profitable genres, ideal release periods and best general practices. Annabel’s job is to uncover key factors driving movie success through historical trend analysis. She has a cleaned dataset representative of the US movie industry in genre proportions, though not in the total number of films. The dataset includes over 50,000 American movies, with budget and revenue figures (adjusted for inflation) available for nearly 5,000 of them.
+</div>
 
 ### What Drives Movie Success: Genres, Themes, or Release Timing? 
 Focusing on profitability, measured as the ratio of box office revenue to production budget, Annabel evaluates financial success rather than audience appreciation which doesn't always define how profitable a movie is (think about the last Star Wars episodes...). She wonders if including older records might distort her analysis due to changes in movie-making trends like runtimes or evolving genre popularity. But before, she asks herself: Is there enough meaningful data to draw actionable conclusions?
@@ -61,8 +62,8 @@ By comparing these recent trends with the longer historical arcs, Annabel demons
 
 <div class="plot7">
     {% include ds_7_plot.html %}
-    <figcaption>Figure 7: Median profitability per genre and release month. Users can adjust the bubble size to visualize different metrics—such as median budget, runtime, or sample size.</figcaption>
 </div>
+<div align="center">Figure 7: Median profitability per genre and release month. Users can adjust the bubble size to visualize different metrics—such as median budget, runtime, or sample size.</div>
 
 Through the interactive plot, Annabel visualizes multiple dimensions simultaneously, connecting earlier findings and emphasizing month-by-month analysis. She seeks bubbles positioned high, indicating strong profitability, with small budgets and high sample counts, ensuring the figures are robust and supported by more data. The analysis reveals that optimal release strategies vary by genre, each having different budgets, runtimes, and release months, most are peaking around December and June, consistent with earlier findings.
 
@@ -85,7 +86,7 @@ She researches the evolution of the number of US war movies released every year 
 
 <figure class="plot9">
     <img src="assets/img/war_movies_over_time_smoothed.png" alt="My Plot 9">
-    <figcaption>Figure 9: </figcaption>
+    <figcaption><div align="center">Figure 9: Movie releases per year (smoothed on a 3-years window)</div></figcaption>
 </figure>
 
 Although at a glance it seems that conflicts such as WWII, the Vietnam War or the Cold War did induce some peak of war movies releases, she tries to confirm it by computing the Pearson correlation between the number of war movies and all movies releases per year. She obtaines a correlation coefficient of 0.62 which she knows indicates a moderate positive linear relationship between the number of war movies per year and the total number of movies per year. The P-value she gets is nearly 0 which suggests the observed correlation is highly statistically significant. She concludes that the variation in war-related movie's releases is greatly related to the variation that exists for all movie's releases that is that the general increase in movies production is a driving factor of the war movies production, so no influence from the wars?
@@ -96,7 +97,7 @@ Annabel makes a plot similar to the one for the number of releases and takes a l
 
 <figure class="plot10">
     <img src="assets/img/war_movies_BO.png" alt="My Plot 10">
-    <figcaption>Figure 10: </figcaption>
+    <figcaption><div align="center">Figure 10: Average box office revenues per year (smoothed on a 3-years window)</div></figcaption>
 </figure>
 
 She observes that, altought it fluctuates a lot, there are big peaks of average box office revenue during the Vietnam War/Cold War and that over the last 30 years the genre performs better on average than the rest of the movie industry!
@@ -120,4 +121,3 @@ Feeling overwhelmed by the abundance of information, Annabel reviews her finding
 - `-`: Sample size < 30
 
 In the end, Annabel’s exploration through historical data didn’t simply provide a set of guidelines. By starting at the most basic distributions and gradually layering on time, genre, and themes, she realized that the “perfect” release strategy wasn’t a fixed formula. Instead, there are numerous nuances that contribute or not to a movie success.
-
