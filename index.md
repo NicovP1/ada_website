@@ -112,7 +112,7 @@ This perspective helped Annabel understand not only when or what type of movies 
 
 In the context of her broader story, this heatmap represented another layer of detail, following the earlier analyses of timing, long-term trends, and genre-specific shifts. By adding thematic content into the equation, Annabel gave stakeholders a more comprehensive toolkit for decision-making: they now had insights into not just when to release a film or which genre might be profitable, but also which themes, paired with the right genre, had historically yielded strong financial results.
 
-
+#### Conclusion
 
 In the end, Annabel’s exploration through historical data didn’t simply provide a set of guidelines—it gave her the confidence and intuition needed to advise the studio’s leadership with greater clarity. By starting at the most basic distributions and gradually layering on time, genre, and thematic factors, she realized that the “perfect” release strategy wasn’t a fixed formula. Instead, it emerged as a nuanced blend of insights: some months and seasons offered steadier prospects, certain genres had proven track records (even if their popularity ebbed and flowed), and themes resonated differently depending on cultural shifts and audience evolution.
 
