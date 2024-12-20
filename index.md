@@ -98,6 +98,19 @@ Before stating her official guidelines to the film studio, she wants to see how 
 
 #### Conclusion
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
+$$
+\begin{table}[h!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Genre & Recommended Themes & Runtime & Release Timing & Comments \\ \hline
+Action & Love (+-), Friendship (+) & 2h & December (90M), June (150M) & Steady profitability; robust data \\ \hline
+Family & Deception (M), Family (+), Friendship (+), Identity (+) & 1h30 & June/January (150M), November (110M) & Upward profitability trend; robust data \\ \hline
+\end{tabular}%
+}
+\end{table}
+$$
 
 | Genre      | Recommended Associated Themes                  | Recommended Runtime | Recommended Release Time                       | Comments                                                                 |
 |------------|------------------------------------------------|---------------------|-----------------------------------------------|--------------------------------------------------------------------------|
