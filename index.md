@@ -102,7 +102,7 @@ Annabel makes a plot similar to the one for the number of releases and takes a l
 
 She observes that, altought it fluctuates a lot, there are big peaks of average box office revenue during the Vietnam War/Cold War and that over the last 30 years the genre performs better on average than the rest of the movie industry!
 
-#### Conclusion
+## Conclusion
 Feeling overwhelmed by the abundance of information, Annabel reviews her findings and organizes the guidelines she provides to the film studio into a structured table.
 
 
