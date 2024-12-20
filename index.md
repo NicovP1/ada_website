@@ -60,7 +60,7 @@ The results did not disapoint, there are some differences with the per-decade fi
 By comparing these recent trends with the longer historical arcs, Annabel demonstrated that while past patterns provide context, current trends can differ meaningfully. Annabel establishes that no single pattern applies universally. Some genres fade, some find steady ground, and others expand into new opportunities. She waits before drawing any conclusions and continues her analysis of the last 20 years through considering budget and runtime as variables that can influence profitability. 
 
 <div class="plot7">
-    {% include assets/img/ds_7_plot.html %}
+    {% include ds_7_plot.html %}
     <figcaption>Figure 7: Median profitability per genre and release month. Users can adjust the bubble size to visualize different metrics—such as median budget, runtime, or sample size.</figcaption>
 </div>
 
