@@ -31,7 +31,7 @@ The final panel, showing the number of movies per decade, demonstrated that the 
 
 By starting with this figure, Annabel ensured she wasn’t building an analysis on shaky ground. Understanding the underlying distributions and sample sizes up front helped her proceed confidently, knowing that subsequent insights—whether related to timing, genre, or theme—would rest on a solid foundation of comprehensive data.
 
-Annabel began her analysis by examining the big picture: how have film profitability and success rates evolved over the last century? To answer this, she introduced Figure 2: Long-Term Trends in Median Profitability and Success Rate early in her report, setting a historical context before diving into shorter-term patterns.
+Annabel began her analysis by examining the big picture: **how have film profitability and success rates evolved over the last century?** To answer this, she introduced Figure 2: Long-Term Trends in Median Profitability and Success Rate early in her report, setting a historical context before diving into shorter-term patterns.
 
 <figure class="plot2">
     <img src="assets/img/plot2.png" alt="My Plot 2">
@@ -40,7 +40,7 @@ Annabel began her analysis by examining the big picture: how have film profitabi
 
 By reviewing these century-spanning trends, Annabel found that overall profitability and success rates have generally declined compared to earlier eras. While individual periods still stood out for better or worse performance, the overarching narrative was that achieving profitable results became progressively more challenging over time. In the most recent 20-year window, the data suggested a leveling-off in this decline, hinting that the industry may have reached a new, albeit less prosperous, equilibrium.
 
-This long-term perspective provided a critical backdrop. Understanding that the industry operates in a tougher environment than it did in the mid-20th century helped frame the value of finer-grained analyses. Even if certain months or seasons are historically more favorable, such tactical insights must be weighed against the reality that the entire playing field has shifted.
+This long-term perspective provided a critical backdrop. Understanding that the industry operates in a tougher environment than it did in the mid-20th century helps frame the value of finer-grained analyses. Even if certain months or seasons are historically more favorable, such tactical insights must be weighed against the reality that the entire playing field has shifted.
 
 Building on this historical foundation, Annabel next examined how profitability varies month by month. She introduced Figure 3: Profitability Per Month, focusing on boxplots to reveal central tendencies, variability, and outliers within each month’s data. While the long-term view showed a general decline in profitability, this month-level breakdown offered more immediate and actionable intelligence for scheduling and marketing decisions.
 
