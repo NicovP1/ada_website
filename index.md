@@ -76,19 +76,20 @@ Annabel wonders how the combination of a film’s genre and underlying theme mig
 
 Annabel could identify which theme-genre pair seems to resonate strongly with audiences within particular genres. Sample size has its importance too : while a higher sample size may indicate more robust values, low sample sizes means a theme-genre pair wasn't done that much, and if the first movies for it went well indicate there might be a market opportunity.
 
+## Study case: War movies
 
 Before stating her official guidelines to the film studio, she wants to see how major events (like wars) influenced movie releases of the war genre. 
 
 
-She researched the evolution of the number of US war movies released every year and compared it with the overall number of releases to see if major conflicts had impacted the genre.
+She researches the evolution of the number of US war movies released every year and compares it with the overall number of releases to see if major conflicts had impacted the genre.
 
 <figure class="plot9">
     <img src="assets/img/war_movies_over_time_smoothed.png" alt="My Plot 9">
     <figcaption>Figure 9: </figcaption>
 </figure>
 
-Although at a glance it seems that conflicts such as WWII, the Vietnam War or the Cold War did induce some peak of war movies releases, she tried to confirm it by computing the Pearson correlation between the number of war movies and all movies releases per year. She obtained a correlation coefficient of 0.62 which she knows indicates a moderate positive linear relationship between the number of war movies per year and the total number of movies per year. The P-value she got is nearly 0 which suggests the observed correlation is highly statistically significant. She concludes that the variation in war-related movie's releases is greatly related to the variation that exists for all movie's releases that is that the general increase in movies production is a driving factor of the war movies production, so no influence from the wars?
-To get to the end of it she performed an OSL regression, she found that 38.7% of the variance of the number of war-related movies' releases per year could be explained by the total number of movies' releases per year which suggests that other factors play a role; like the actual wars !
+Although at a glance it seems that conflicts such as WWII, the Vietnam War or the Cold War did induce some peak of war movies releases, she tries to confirm it by computing the Pearson correlation between the number of war movies and all movies releases per year. She obtaines a correlation coefficient of 0.62 which she knows indicates a moderate positive linear relationship between the number of war movies per year and the total number of movies per year. The P-value she gets is nearly 0 which suggests the observed correlation is highly statistically significant. She concludes that the variation in war-related movie's releases is greatly related to the variation that exists for all movie's releases that is that the general increase in movies production is a driving factor of the war movies production, so no influence from the wars?
+To get to the end of it she performes an OSL regression, she finds that 38.7% of the variance of the number of war-related movies' releases per year could be explained by the total number of movies' releases per year which suggests that other factors play a role; like the actual wars !
 
 
 
